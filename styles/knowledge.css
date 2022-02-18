@@ -1,0 +1,26 @@
+.accordion{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-item{
+    width: 100%;
+}
+.gridArea{
+    width: 100%;
+    padding: 0 5vw;
+
+    z-index: 5;
+}
+.accordion-button:focus{
+    border-color: none;
+    box-shadow: none;
+}
+.accordion-body{
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+}

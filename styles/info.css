@@ -1,0 +1,55 @@
+.imageDemoHolder{
+    height: 70vw;
+    width: 70vw;
+}
+
+.demoPhoto{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 50%;
+}
+.infoCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.infoCard > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.infoCard > h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+}
+.infoCard > div > p{
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.linkText{
+    color: rgb(0, 118, 214);
+    font-size: 2.5rem;
+
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.infoCard > a{
+    text-decoration: none;
+}
+.infoSection{
+    padding: 5vw;
+}
