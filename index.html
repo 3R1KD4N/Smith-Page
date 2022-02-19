@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/info.css">
     <link rel="stylesheet" href="styles/knowledge.css">
+    <link rel="stylesheet" href="styles/mediaQuerys.css">
 </head>
 <body class="mandatorySnap">
     <header>
-        <nav>
+        <nav class="boxShadowMenu">
             <ul class="navbarUl">
                 <li><a href=""><img src="./assets/mainLogo.png" alt="Smith Mantenimiento" class="mainLogoNav"></a></li>
                 <li><img src="./assets/menuButton.png" alt="menu" class="menuButton" id="menuBtn"></li>
@@ -51,8 +52,7 @@
         <div class="imgHolder">
             <div class="filter">
                 <img src="./assets/mainLogoWhite.png" alt="Smith Mantenimiento" class="mainSectionLogo">
-
-                <h1>Especialistas de servicio para todo tipo de preparación y conservación de alimentos</h1>
+                <h1>Especialistas de servicio para todo tipo de repacion en equipos de conservación y preparación de alimentos</h1>
             </div>
         </div>
     </section>
@@ -60,16 +60,16 @@
         <div class="infoCard">
             <h2>Especialistas de servicio</h2>
             <div class="divisionBar"></div>
-            <div>
-                <p>Cada 10 solicitudes de servicio que son requeridas por nuestros clientes, solo 2 de estas ocuparon algún tipo de refacción. Mientras que en las 8 situaciones restantes, solo fue necesario culminarlas con un buen servicio o mano de obra especializada.</p>
+            <div class="infoFlex">
+                <p id="aboutUsText">Cada 10 solicitudes de servicio que son requeridas por nuestros clientes, solo 2 de estas ocuparon algún tipo de refacción. Mientras que en las 8 situaciones restantes, solo fue necesario culminarlas con un buen servicio o mano de obra especializada.</p>              
                 <div class="imageDemoHolder">
-                    <img src="./assets/stockPhotos/photo1.jpg" alt="Mantenimiento" class="demoPhoto">
+                    <img src="./assets/stockPhotos/photo1.jpg" alt="Mantenimiento" class="demoPhoto boxShadow">
                 </div>
             </div>
-            <a href="./nosotros.html"><h3 class="linkText">Conoce mas sobre nosotros  ➜<h3></a>
+            <button class="aLinkButton"><a href="./nosotros.html"><h3 class="hoverText">Conoce mas sobre nosotros  ➜</h3></a></button>
         </div>
     </section>
-    <section class="know">
+    <section class="know infoSection">
         <div class="infoCard">
             <h2>Contamos con conocimiento y servico en...</h2>
             <div class="divisionBar"></div>
@@ -143,24 +143,24 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                           <div class="accordion-body">
-                            <p style="color: black; font-size: 1.5rem;">Campanas de extracción</p>
-                            <p style="color: black; font-size: 1.5rem;">Lavadoras de loza</p>
-                            <p style="color: black; font-size: 1.5rem;">Empacadoras de vacio</p>
-                            <p style="color: black; font-size: 1.5rem;">Basculas</p>
-                            <p style="color: black; font-size: 1.5rem;">Conservadores de alimentos</p>
-                            <p style="color: black; font-size: 1.5rem;">Tunel de encogimiento</p>
-                            <p style="color: black; font-size: 1.5rem;">Selladoras de empaque</p>
-                            <p style="color: black; font-size: 1.5rem;">Filtros de agua</p>
-                            <p style="color: black; font-size: 1.5rem;">Cuentalitros</p>
+                                <p style="color: black; font-size: 1.5rem;">Campanas de extracción</p>
+                                <p style="color: black; font-size: 1.5rem;">Lavadoras de loza</p>
+                                <p style="color: black; font-size: 1.5rem;">Empacadoras de vacio</p>
+                                <p style="color: black; font-size: 1.5rem;">Basculas</p>
+                                <p style="color: black; font-size: 1.5rem;">Conservadores de alimentos</p>
+                                <p style="color: black; font-size: 1.5rem;">Tunel de encogimiento</p>
+                                <p style="color: black; font-size: 1.5rem;">Selladoras de empaque</p>
+                                <p style="color: black; font-size: 1.5rem;">Filtros de agua</p>
+                                <p style="color: black; font-size: 1.5rem;">Cuentalitros</p>
                           </div>
                         </div>
                       </div>
                   </div>
             </div>
-            <a href="./servicios.html"><h3 class="linkText">Conoce todos nuestros servicios  ➜<h3></a>
+            <button class="aLinkButton"><a href="./servicios.html"><h3 class="hoverText">Conoce todos nuestros servicios  ➜</h3></a></button>
         </div>
     </section>
-    <section>
+    <section class="infoSection">
         <div class="infoCard">
             <h2>Trabajando mano a mano con las mejores marcas</h2>
             <div class="divisionBar"></div>
@@ -197,12 +197,43 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="infoSection know">
         <div class="infoCard">
             <h2>Contactanos</h2>
             <div class="divisionBar"></div>
             <div>
                 <p>Aqui deberia de ir el apartado de contacto</p>
+                <div class="gridHolder">
+                    <button class="contactCard">
+                        <div>
+                            <h2>WhatsApp</h2>
+                            <div class="iconHolder"></div>
+                        </div>
+                        <h3>8123469791</h3>
+                    </button>
+                    <button class="contactCard">
+                        <div>
+                            <h2>WhatsApp</h2>
+                            <div class="iconHolder"></div>
+                        </div>
+                        <h3>8123469791</h3>
+                    </button>
+                    <button class="contactCard">
+                        <div>
+                            <h2>WhatsApp</h2>
+                            <div class="iconHolder"></div>
+                        </div>
+                        <h3>8123469791</h3>
+                    </button>
+                    <button class="contactCard">
+                        <div>
+                            <h2>WhatsApp</h2>
+                            <div class="iconHolder"></div>
+                        </div>
+                        <h3>8123469791</h3>
+                    </button>
+                </div>
+                </div>
             </div>
         </div>
     </section>

@@ -1,0 +1,48 @@
+@media (max-width:  390px){
+    .infoFlex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .infoFlex{
+        padding: 0 15vw;
+    }
+    .imageDemoHolder{
+        width: 45vw;
+        height: 45vw;
+    }
+}
+
+@media (min-width: 751px) {
+    .infoFlex{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .imageDemoHolder{
+        width: 40vw;
+        height: 40vw;
+        padding: 20px;
+    }
+    .infoFlex > p {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .infoFlex{
+        flex-direction: row;
+
+        justify-content: space-around;
+    }
+    .imageDemoHolder{
+        width: 25vw;
+        height: 25vw;
+        padding: 20px;
+    }
+    .infoFlex > p {
+        width: 40%;
+    }
+}
