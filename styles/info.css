@@ -17,16 +17,13 @@
 
     flex-direction: column;
 }
-.infoCard > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  
-}
+
 .infoCard > h2{
     text-align: center;
     font-size: 2.5rem;
     color: black;
+
+    padding-left: 2vw;
 }
 .infoCard > div > p{
     font-size: 1.4rem;
@@ -52,4 +49,17 @@
 }
 .infoSection{
     padding: 5vw;
+}
+.infoFlex{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+.gg-shape-hexagon{
+    color: rgb(0, 118, 214);
+}
+.know{
+    padding: 20vh 5vw;
 }
